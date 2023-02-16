@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.*;
 import java.util.Arrays;
 
@@ -92,4 +93,11 @@ public class lab3 {
 
     }
 
+=======
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.concurrent.locks.Condition;
+public class lab3{
+    
+>>>>>>> 1540586a33c28cc6f4c390a0b936f81642dbda7b
 }
