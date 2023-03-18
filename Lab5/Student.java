@@ -109,10 +109,5 @@ class Student {
 }
 
     
-=======
-package Lab5;
 
-public class Student {
-    
-}
->>>>>>> ae5cd35348cb6d0318d7b5802c99b64bb443b2c7
+
