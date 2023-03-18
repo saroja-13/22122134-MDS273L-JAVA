@@ -1,8 +1,9 @@
-<<<<<<< HEAD
+package Lab5;
 
 import java.util.*;
 import java.util.Scanner;
-class Student {
+
+class Lab5 {
     private int regNo;
     private String name;
     private String email;
@@ -10,7 +11,7 @@ class Student {
     private String className;
     private String department;
 
-    public Student(int regNo, String name, String email, String phone, String className, String department) {
+    public Lab5(int regNo, String name, String email, String phone, String className, String department) {
         this.regNo = regNo;
         this.name = name;
         this.email = email;
@@ -30,7 +31,7 @@ class Student {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Student[] students = new Student[100];
+        Lab5[] students = new Lab5[100];
         int count = 0;
         while (true) {
             System.out.println("Menu:");
@@ -55,7 +56,7 @@ class Student {
                     String className = scanner.nextLine();
                     System.out.print("Enter Department: ");
                     String department = scanner.nextLine();
-                    students[count++] = new Student(regNo, name, email, phone, className, department);
+                    students[count++] = new Lab5(regNo, name, email, phone, className, department);
                     break;
                 case 2:
                     System.out.println("Search for a student:");
@@ -107,7 +108,3 @@ class Student {
         }
     }
 }
-
-    
-
-
